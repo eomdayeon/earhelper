@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         new android.os.Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                txtSystem.setText("어플 실행됨--자동 실행-----------"+"\r\n"+txtSystem.getText());
+                txtSystem.setText("어플 실행됨--자동 실행"+"\r\n"+txtSystem.getText());
                 btnSttStart.performClick();
             }
         },1000);//바로 실행을 원하지 않으면 지워주시면 됩니다
@@ -89,12 +89,12 @@ public class MainActivity extends AppCompatActivity {
     private RecognitionListener listener=new RecognitionListener() {
         @Override
         public void onReadyForSpeech(Bundle bundle) {
-            txtSystem.setText("onReadyForSpeech..........."+"\r\n"+txtSystem.getText());
+            txtSystem.setText("음성 인식 준비 중.."+"\r\n"+txtSystem.getText());
         }
 
         @Override
         public void onBeginningOfSpeech() {
-            txtSystem.setText("지금부터 말을 해주세요..........."+"\r\n"+txtSystem.getText());
+            txtSystem.setText("지금부터 말을 해주세요."+"\r\n"+txtSystem.getText());
         }
 
         @Override
@@ -104,17 +104,17 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onBufferReceived(byte[] bytes) {
-            txtSystem.setText("onBufferReceived..........."+"\r\n"+txtSystem.getText());
+            txtSystem.setText("onBufferReceived."+"\r\n"+txtSystem.getText());
         }
 
         @Override
         public void onEndOfSpeech() {
-            txtSystem.setText("onEndOfSpeech..........."+"\r\n"+txtSystem.getText());
+            //txtSystem.setText("onEndOfSpeech."+"\r\n"+txtSystem.getText());
         }
 
         @Override
         public void onError(int i) {
-            txtSystem.setText("천천히 다시 말해 주세요..........."+"\r\n"+txtSystem.getText());
+            txtSystem.setText("천천히 다시 말해 주세요."+"\r\n"+txtSystem.getText());
         }
 
         @Override
@@ -132,12 +132,12 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onPartialResults(Bundle bundle) {
-            txtSystem.setText("onPartialResults..........."+"\r\n"+txtSystem.getText());
+            txtSystem.setText("onPartialResults."+"\r\n"+txtSystem.getText());
         }
 
         @Override
         public void onEvent(int i, Bundle bundle) {
-            txtSystem.setText("onEvent..........."+"\r\n"+txtSystem.getText());
+            txtSystem.setText("onEvent."+"\r\n"+txtSystem.getText());
         }
     };
     //입력된 음성 메세지 확인 후 동작 처리
@@ -146,17 +146,22 @@ public class MainActivity extends AppCompatActivity {
 
         VoiceMsg=VoiceMsg.replace(" ","");//공백제거
 
-        if(VoiceMsg.indexOf("카카오톡")>-1 || VoiceMsg.indexOf("카톡")>-1){
-            Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.kakao.talk");
-            startActivity(launchIntent);
-            onDestroy();
+//        if(VoiceMsg.indexOf("카카오톡")>-1 || VoiceMsg.indexOf("카톡")>-1){
+//            Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.kakao.talk");
+//            startActivity(launchIntent);
+//            onDestroy();
+//        }//카카오톡 어플로 이동
+//        if(VoiceMsg.indexOf("전동꺼")>-1 || VoiceMsg.indexOf("불꺼")>-1){
+//            FuncVoiceOut("전등을 끕니다");//전등을 끕니다 라는 음성 출력
+//        }
+        if(VoiceMsg.indexOf("지수야")>-1 || VoiceMsg.indexOf("지수")>-1){
+            //Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.kakao.talk");
+            FuncVoiceOut("이름이 인식 되었습니다.");
         }//카카오톡 어플로 이동
-        if(VoiceMsg.indexOf("전동꺼")>-1 || VoiceMsg.indexOf("불꺼")>-1){
-            FuncVoiceOut("전등을 끕니다");//전등을 끕니다 라는 음성 출력
+        if(VoiceMsg.indexOf("불이야")>-1 || VoiceMsg.indexOf("불")>-1){
+            FuncVoiceOut("불이야가 인식되었습니다. 긴급 연락을 요청합니다.");//전등을 끕니다 라는 음성 출력
         }
     }
-
-
 
     //음성 메세지 출력용
     private void FuncVoiceOut(String OutMsg){
