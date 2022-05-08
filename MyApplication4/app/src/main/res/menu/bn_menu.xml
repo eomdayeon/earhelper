@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bn_home"
+        android:title="home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/bn_mypage"
+        android:title="mypage"
+        android:icon="@drawable/mypage_user"/>
+    <item
+        android:id="@+id/bn_setup"
+        android:title="setup"
+        android:icon="@drawable/setup"/>
+
+
+</menu>
