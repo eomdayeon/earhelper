@@ -1,0 +1,6 @@
+https://jonyapps.com/android-robot-app-or-speech-to-text-recognizer/
+
+import android.speech.SpeechRecognizer
+https://min-wachya.tistory.com/193
+
+https://developer.android.com/reference/android/speech/SpeechRecognizer

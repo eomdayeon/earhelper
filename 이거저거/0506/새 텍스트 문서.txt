@@ -1,0 +1,7 @@
+https://github.com/tnqkr98/audio_classification_java/blob/master/app/src/main/java/com/tnqkr98/tensoflowlitejava/MainActivity.java
+
+https://github.com/googleapis/java-speech/blob/main/samples/snippets/src/main/java/com/example/speech/InfiniteStreamRecognize.java
+https://github.com/googleapis/java-speech
+https://github.com/googleapis/google-cloud-java#authentication
+
+https://github.com/iago001/MLSeriesDemonstrator

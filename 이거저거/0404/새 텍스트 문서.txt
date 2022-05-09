@@ -1,0 +1,42 @@
+책 : 텐서플로 라이트를 활용한 안드로이드 딥러닝
+https://www.youtube.com/watch?v=-z-M6bbufao
+텐서 플로우 사전 학습 모델 ---------> TFLite 모델 ----------> 안드 개발
+                                     변환                        배포
+
+https://pythonkim.tistory.com/131?category=703510
+PC에서 모델을 학습한다.
+학습한 모델을 텐서플로 라이트 버전으로 변환한다.
+안드로이드 프로젝트를 생성한다.
+assets 폴더를 만들고 모델 파일을 붙여 넣는다.
+텐서플로 라이트 모듈을 사용할 수 있도록 gradle 파일에 내용을 추가한다.
+gradle 파일을 수정해서 모델 파일이 압축되지 않도록 한다.
+gradle 파일을 수정했으니까 동기화를 진행한다.
+tflite 모델 파일을 로딩하고 run 함수를 호출해서 결과를 가져온다.
+안드로이드 화면을 구성하고 코드를 추가해서 결과를 표시한다.
+
+모델 : https://tfhub.dev/    https://github.com/tensorflow/models/tree/master/official
+
+한국 음성 인식 kospeech
+https://github.com/sooftware/kospeech   설명 영상 : https://www.youtube.com/watch?v=OglqDo44zpQ&t=434s
+ksponspeech -> 1000시간 분량 음성, 신청하면 준다는데 필요없을듯?
+OpenSpeech라는 한국어 중국어 영어 있는 오픈소스도 있는데 파이토치 라이트닝이랑 히드라라는 프레임워크 쓴다는듯, 아직은 많이 부족하다는듯
+https://github.com/qute012/kosr
+
+애들이 kospeech 쓴거
+https://velog.io/@letgodchan0/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D-%ED%95%9C%EA%B5%AD%EC%96%B4-STT-1
+모델 : Deepspeech2? TFLite로 변환 ㄱㄴ?  다른건 이렇게 함 : https://colab.research.google.com/github/sanghunkang/tensorflow-lite/blob/master/mobile_team_project/model_training/train_speech_model_ios_ko.ipynb
+Tensorflow Lite 모델 변환기(toco) ? -> https://www.tensorflow.org/lite/convert?hl=ko
+https://github.com/letgodchan0/Korean_STT
+
+얌넷 TFLite 모델 : 바로 끌어다 개발 ㄱㄴ할듯?
+https://tfhub.dev/google/lite-model/yamnet/tflite/1
+yamnet csv : https://github.com/tensorflow/models/blob/master/research/audioset/yamnet/yamnet_class_map.csv
+	각종 경적, 엠뷸런스, 경찰차, 소방차, 등 사이렌, 화재 경보, 폭발
+https://developers.google.com/codelabs/tflite-audio-classification-basic-android#8 -> 안드에서 얌넷 쓴 간단한거 
+
+cer: 문자오류율 wer: 단어 오류율
+CTC는 학습데이터에 클래스 라벨만 순서대로 있고 각 클래스의 위치는 어디있는지 모르는 unsegmented 시퀀스 데이터의 학습을 위해서 사용하는 알고리즘이다.
+Attention 메커니즘 ? 
+
+영어를 영어로
+https://tfhub.dev/neso613/lite-model/ASR_TFLite/pre_trained_models/English/1

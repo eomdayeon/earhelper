@@ -1,0 +1,4 @@
+오디오 분류 : https://www.tensorflow.org/lite/examples/audio_classification/overview
+아이디어붐 : http://www.ideaboom.net/page/project_detail.php?seq=2224
+논문 : https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=CFKO201831342440723&oCn=NPAP12689503&dbt=CFKO&journal=NPRO00377597
+https://github.com/software-engineering-team8/Team-project

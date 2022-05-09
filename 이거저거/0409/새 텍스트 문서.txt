@@ -1,0 +1,4 @@
+푸쉬알람 : NotificationManager?  https://developer.android.com/guide/topics/ui/notifiers/notifications?hl=ko
+액티비티 추가?
+edit text?
+https://codechacha.com/ko/android-handler-basic/
