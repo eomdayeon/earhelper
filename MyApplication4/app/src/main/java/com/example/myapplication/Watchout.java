@@ -1,15 +1,17 @@
 package com.example.myapplication;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.app.NotificationCompat;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Message;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -45,7 +47,8 @@ public class Watchout extends AppCompatActivity {
     ImageView imageview;
     public final static int REQUEST_RECORD_AUDIO = 2033;
     protected TextView outputTextView;
-
+    private static final String TAG = Watchout.class.getSimpleName();
+    private static final String CLIENT_ID = "s77xh2ce69";
 
     //
     String modelPath = "yamnet_classification.tflite";
@@ -54,21 +57,13 @@ public class Watchout extends AppCompatActivity {
     private TensorAudio tensor;
     private AudioRecord record;
     private TimerTask timerTask;
+    private TimerTask timerTask2;
+    private boolean sirenFlag = false;
+    private boolean fireAlarmFlag = false;
 
     static final String CHANNEL_ID = "MY_CH";
     private NotificationManager mNotificationManager;
     private static final int NOTIFICATION_ID = 0;
-
-    String textTitle = "사이렌이 울리고 있어요";
-    String textContent = "주변을 살펴보세요";
-
-    NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.notification_icon)
-            .setContentTitle(textTitle)
-            .setContentText(textContent)
-            .setPriority(NotificationCompat.PRIORITY_DEFAULT);
-
-    //
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -130,28 +125,40 @@ public class Watchout extends AppCompatActivity {
                                 outputStr.append(category.getLabel())
                                         .append(": ").append(category.getScore()).append("\n");
                             }
-
                             String s1 = outputStr.toString();
-
-                            // Updating the UI
+                            if(s1.contains("Siren")){
+                                sirenFlag = true;
+                            }
+                            if(s1.contains("Bell") || s1.contains("Tools") || s1.contains("Mechanisms") ||s1.contains("Alarm clock")) {
+                                fireAlarmFlag = true;
+                            }
+                        }
+                    };
+                    timerTask2 = new TimerTask(){
+                        @Override
+                        public void run() {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    if (finalOutput.isEmpty()) {
-
-                                    } else {
-                                       if(s1.contains("Siren")){
-                                           Toast toast = Toast.makeText(getApplicationContext(), "사이렌이 울리고 있어요",Toast.LENGTH_SHORT);
-                                           toast.show();
-                                           sendNotification();
-                                       }
-                                    }
+                                        if(sirenFlag == true){
+                                            Toast toast = Toast.makeText(getApplicationContext(), "사이렌이 울리고 있어요",Toast.LENGTH_SHORT);
+                                            toast.show();
+                                            sendSirenNotification();
+                                            sirenFlag = false;
+                                        }
+                                        if(fireAlarmFlag == true){
+                                            Toast toast = Toast.makeText(getApplicationContext(), "화재경보가 울리고 있어요",Toast.LENGTH_SHORT);
+                                            toast.show();
+                                            sendFireAlarmNotification();
+                                            fireAlarmFlag = false;
+                                            openDial();
+                                        }
                                 }
                             });
                         }
                     };
-
                     new Timer().scheduleAtFixedRate(timerTask, 1, 500);
+                    new Timer().scheduleAtFixedRate(timerTask2, 1, 8000);
                 }
                 else
                 {
@@ -162,38 +169,47 @@ public class Watchout extends AppCompatActivity {
             }
         });
     }
-
     private void createNotificationChannel() {
-        // Android8.0 이상인지 확인
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             mNotificationManager = (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
-
             NotificationChannel notificationChannel = new NotificationChannel(CHANNEL_ID
                     ,"Test Notification",mNotificationManager.IMPORTANCE_HIGH);
-            // 중요도 설정, Android7.1 이하는 다른 방식으로 지원한다.(위에서 설명)
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
-            //Channel에 대한 기본 설정
             notificationChannel.enableLights(true);
             notificationChannel.enableVibration(true);
             notificationChannel.setDescription("Notification from Mascot");
-            // Manager을 이용하여 Channel 생성
             mNotificationManager.createNotificationChannel(notificationChannel);
         }
     }
-
-    private NotificationCompat.Builder getNotificationBuilder() {
+    private NotificationCompat.Builder getSirenNotificationBuilder() {
         NotificationCompat.Builder notifyBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setContentTitle("사이렌이 울리고 있어요!")
                 .setContentText("주변을 살펴보세요~")
-                .setSmallIcon(R.drawable.alarm);
+                .setSmallIcon(R.drawable.alarm)
+                .setAutoCancel(true);
         return notifyBuilder;
     }
-
+    private NotificationCompat.Builder getFireAlarmNotificationBuilder() {
+        NotificationCompat.Builder notifyBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                .setContentTitle("화재경보가 울리고 있어요!")
+                .setContentText("주변을 살펴보세요~")
+                .setSmallIcon(R.drawable.alarm)
+                .setAutoCancel(true);
+        return notifyBuilder;
+    }
     // Notification을 보내는 메소드
-    public void sendNotification(){
-        // Builder 생성
-        NotificationCompat.Builder notifyBuilder = getNotificationBuilder();
-        // Manager를 통해 notification 디바이스로 전달
+    public void sendSirenNotification(){
+        NotificationCompat.Builder notifyBuilder = getSirenNotificationBuilder();
         mNotificationManager.notify(NOTIFICATION_ID,notifyBuilder.build());
+    }
+    public void sendFireAlarmNotification(){
+        NotificationCompat.Builder notifyBuilder = getFireAlarmNotificationBuilder();
+        mNotificationManager.notify(NOTIFICATION_ID,notifyBuilder.build());
+    }
+    // 긴급전화
+    public void openDial(){
+        Intent intent=new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:119"));
+        startActivity(intent);
     }
 }
