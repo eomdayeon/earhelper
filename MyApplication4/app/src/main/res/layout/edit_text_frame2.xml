@@ -10,31 +10,19 @@
 
     <EditText
         android:id="@+id/recogedit"
-        android:layout_width="249dp"
+        android:layout_width="311dp"
         android:layout_height="60dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="5dp"
         android:background="@drawable/edittext_background"
         android:gravity="center_vertical"
-        android:hint="등록할 단어를 입력해 주세요."
         android:paddingLeft="20dp">
 
     </EditText>
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        >
-
-        <Button
-            android:id="@+id/save"
-            android:layout_width="60dp"
-            android:layout_height="65dp"
-            android:backgroundTint="@color/maingreen"
-            android:text="save">
-
-        </Button>
-
-    </FrameLayout>
+        />
     <ImageView
         android:id="@+id/removelist"
         android:layout_width="35dp"

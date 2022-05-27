@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,6 +15,7 @@ import androidx.fragment.app.Fragment;
 
 public class HomeFragment extends Fragment {
     private View view;
+    ImageView bluetooth;
     CardView word;
     CardView watchout;
 
@@ -26,6 +28,7 @@ public class HomeFragment extends Fragment {
 
         word =view.findViewById(R.id.word);
         watchout =view.findViewById(R.id.watchout);
+        bluetooth=view.findViewById(R.id.bluetooth_btn);
 
         word.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +46,13 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        bluetooth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),Bluetooth.class);
+                startActivity(intent);
+            }
+        });
         return view;
     }
 }

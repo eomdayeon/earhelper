@@ -14,5 +14,8 @@
     <color name="watchout_background">#073763</color>
     <color name="word_background">#F08080</color>
     <color name="maingreen">#214F59</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
 
 </resources>
