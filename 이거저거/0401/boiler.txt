@@ -1,2 +1,0 @@
-https://github.com/gowthamand/reactjs-login-register-crud
-https://github.com/idurar/starter-antd-admin-crud-auth-mern

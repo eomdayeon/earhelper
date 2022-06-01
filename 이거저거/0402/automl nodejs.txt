@@ -1,1 +1,0 @@
-https://github.com/googleapis/nodejs-automl/blob/main/README.md

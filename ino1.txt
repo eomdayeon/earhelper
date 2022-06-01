@@ -1,0 +1,53 @@
+#include <SoftwareSerial.h>        // 블루투스 시리얼 통신 라이브러리 추가
+#define BT_RXD 8
+#define BT_TXD 7
+SoftwareSerial bluetooth(BT_RXD, BT_TXD);        // 블루투스 설정 BTSerial(Tx, Rx)
+
+#include <LiquidCrystal_I2C.h>
+
+#include <DHT.h>
+#include <DHT_U.h>
+
+#include <DHT.h>
+#define DHTPIN 2
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+  Serial.begin(9600);
+  bluetooth.begin(9600);                         // 블루투스 통신 시작
+  lcd.init();
+  lcd.backlight();
+  
+}
+void loop() {
+  int h=dht.readHumidity();
+  int t=dht.readTemperature();
+  char data[7] = {0,};
+  String outputString = "";
+  String inputString = "";
+
+  outputString = String(t)+"/"+String(h);
+  bluetooth.println(outputString);
+  delay(1000);
+
+  while (bluetooth.available()) {        // 블루투스에서 보낸 내용은 시리얼모니터로 전송
+    //Serial.write(bluetooth.read());
+    byte data = bluetooth.read();
+    inputString=char(data);
+    if(inputString.equals("1")){
+      lcd.setCursor(0,0);
+      lcd.print("**** Siren ****");
+      lcd.setCursor(0,1);
+      lcd.print("Look around you.");
+    }
+    else if(inputString.equals("2")){
+      lcd.setCursor(0,0);
+      lcd.print("***Fire alarm***");
+      lcd.setCursor(0,1);
+      lcd.print("Look around you.");
+    } 
+  }
+}

@@ -1,1 +1,0 @@
-https://cloud.google.com/vision/automl/docs/samples/automl-vision-classification-create-dataset?hl=ko#automl_vision_classification_create_dataset-nodejs

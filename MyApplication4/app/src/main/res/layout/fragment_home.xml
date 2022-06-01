@@ -33,6 +33,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/bluetooth_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bluetooth"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.32"
+        app:tint="#FBC02D" />
+
     <GridLayout
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
@@ -171,12 +184,13 @@
                     android:textSize="15dp" />
 
                 <TextView
+                    android:id="@+id/humidity_str"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="26dp"
                     android:layout_marginLeft="150dp"
                     android:fontFamily="@font/jalnan"
-                    android:text="53%"
+                    android:text=""
                     android:textSize="15dp" />
 
             </LinearLayout>
@@ -216,12 +230,12 @@
                     android:textSize="15dp" />
 
                 <TextView
+                    android:id="@+id/bpm_str"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="95dp"
                     android:layout_marginTop="26dp"
-                    android:layout_marginLeft="120dp"
                     android:fontFamily="@font/jalnan"
-                    android:text="55BPM"
                     android:textSize="15dp" />
 
             </LinearLayout>
@@ -261,12 +275,13 @@
                     android:textSize="15dp" />
 
                 <TextView
+                    android:id="@+id/temperature_str"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="26dp"
                     android:layout_marginLeft="155dp"
                     android:fontFamily="@font/jalnan"
-                    android:text="25°C"
+                    android:text=""
                     android:textSize="15dp" />
 
             </LinearLayout>

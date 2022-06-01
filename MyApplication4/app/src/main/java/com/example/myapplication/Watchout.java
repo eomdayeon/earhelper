@@ -144,12 +144,30 @@ public class Watchout extends AppCompatActivity {
                                             Toast toast = Toast.makeText(getApplicationContext(), "사이렌이 울리고 있어요",Toast.LENGTH_SHORT);
                                             toast.show();
                                             sendSirenNotification();
+
+                                            Intent intent = new Intent(getApplicationContext(),Foreground_Service.class);
+                                            intent.putExtra("data","1");
+                                            startService(intent);
+
+                                            Intent intent2 = new Intent(getApplicationContext(),Foreground_Service.class);
+                                            intent2.putExtra("data","3");
+                                            startService(intent2);
+
                                             sirenFlag = false;
                                         }
                                         if(fireAlarmFlag == true){
                                             Toast toast = Toast.makeText(getApplicationContext(), "화재경보가 울리고 있어요",Toast.LENGTH_SHORT);
                                             toast.show();
                                             sendFireAlarmNotification();
+
+                                            Intent intent = new Intent(getApplicationContext(),Foreground_Service.class);
+                                            intent.putExtra("data","2");
+                                            startService(intent);
+
+                                            Intent intent2 = new Intent(getApplicationContext(),Foreground_Service.class);
+                                            intent2.putExtra("data","3");
+                                            startService(intent2);
+
                                             fireAlarmFlag = false;
                                             openDial();
                                         }

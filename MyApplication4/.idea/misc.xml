@@ -19,14 +19,22 @@
         <entry key="..\:/Users/Admin/Documents/GitHub/earhelper-lee/earhelper-lee/MyApplication4/app/src/main/res/layout/fragment_setup.xml" value="0.26570415400202635" />
         <entry key="..\:/Users/Admin/Documents/GitHub/earhelper-lee/earhelper-lee/MyApplication4/app/src/main/res/layout/login_tab_fragment.xml" value="0.26570415400202635" />
         <entry key="..\:/Users/Admin/Documents/GitHub/earhelper-lee/earhelper-lee/MyApplication4/app/src/main/res/layout/signup_tab_fragment.xml" value="0.26570415400202635" />
+        <entry key="..\:/Users/Admin/Documents/GitHub/earhelper/MyApplication4/app/src/main/res/layout/fragment_home.xml" value="0.32083333333333336" />
+        <entry key="..\:/Users/lg/Desktop/earhelper-ijh/MyApplication4/app/src/main/res/layout/activity_bluetooth.xml" value="0.1" />
+        <entry key="..\:/Users/lg/Desktop/earhelper-ijh/MyApplication4/app/src/main/res/layout/activity_navigation.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/lg/Desktop/earhelper-ijh/MyApplication4/app/src/main/res/layout/activity_watchout.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/lg/Desktop/earhelper-ijh/MyApplication4/app/src/main/res/layout/activity_word_recognition.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/lg/Desktop/earhelper-ijh/MyApplication4/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/button_bg.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/edit_text_bg.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/menu_selector_color.xml" value="0.2564814814814815" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/vie_bg.xml" value="0.1" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_bluetooth.xml" value="0.264" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_main.xml" value="0.536" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_navigation.xml" value="0.4" />
+        <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_sensor_info.xml" value="0.4" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_watchout.xml" value="0.264" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_word_list.xml" value="0.1" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_word_recognition.xml" value="0.1" />
@@ -38,6 +46,8 @@
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/setting.xml" value="0.20923913043478262" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/signup_tab_fragment.xml" value="0.4" />
         <entry key="..\:/Users/qkard/AndroidStudioProjects/MyApplication4/app/src/main/res/menu/bn_menu.xml" value="0.536" />
+        <entry key="..\:/earhelper-lee2/MyApplication4/app/src/main/res/layout/activity_bluetooth.xml" value="0.4447463768115942" />
+        <entry key="..\:/earhelper-lee2/MyApplication4/app/src/main/res/layout/fragment_home.xml" value="0.4447463768115942" />
       </map>
     </option>
   </component>

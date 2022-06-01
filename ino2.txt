@@ -1,0 +1,37 @@
+#include "DFRobot_Heartrate.h"
+#include <SoftwareSerial.h>        // 블루투스 시리얼 통신 라이브러리 추가
+#define heartratePin A1
+#define BT_RXD 8
+#define BT_TXD 7
+
+SoftwareSerial bluetooth(BT_RXD, BT_TXD);        // 블루투스 설정 BTSerial(Tx, Rx)
+DFRobot_Heartrate heartrate(DIGITAL_MODE); ///< ANALOG_MODE or DIGITAL_MODE
+
+void setup() {
+  Serial.begin(9600);
+  bluetooth.begin(9600);                         // 블루투스 통신 시작
+}
+
+void loop() {
+  uint8_t rateValue;
+  heartrate.getValue(heartratePin); ///< A1 foot sampled values
+  rateValue = heartrate.getRate(); ///< Get heart rate value
+  char data[7] = {0,};
+  String outputString = "";
+  String inputString = ""; 
+  if(rateValue)  {
+    outputString = String(rateValue);
+    bluetooth.println(outputString);
+  }
+  delay(20);
+  
+  while (bluetooth.available()) {        // 블루투스에서 보낸 내용은 시리얼모니터로 전송
+    byte data = bluetooth.read();
+    inputString=char(data);
+    if(inputString.equals("3")){
+      analogWrite(3, 100);                        // 100/255 세기로 진동               
+      delay(3000);                                                   
+      analogWrite(3, 0);			// 꺼짐
+    }
+  }
+}

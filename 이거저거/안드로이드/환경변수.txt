@@ -1,1 +1,0 @@
-set GOOGLE_APPLICATION_CREDENTIALS=C:\Users\Admin\Downloads\spry-climber-347001-fd1b1e4b3044.json

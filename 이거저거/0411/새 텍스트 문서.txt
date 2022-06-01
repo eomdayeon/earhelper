@@ -1,4 +1,2 @@
 https://cloud.google.com/speech-to-text/docs/streaming-recognize?hl=ko
 https://github.com/GoogleCloudPlatform/android-docs-samples/tree/master/speech/Speech
-
-2. 파이썬 코드를 서버에 심어두고, REST API로 호출해서 불러온다. (서버가 필요하지만 가장 현실적)

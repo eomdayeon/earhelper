@@ -58,5 +58,15 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-task-audio:0.2.0'
     // text
     implementation 'org.tensorflow:tensorflow-lite-task-text:0.2.0'
-
+    //서비스 이중에 안쓰는 거 있을 수도 있음
+    implementation 'com.akexorcist:bluetoothspp:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    implementation 'jp.co.cyberagent.android:gpuimage:2.1.0'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    //프래그먼트 서비스 데이터
+    implementation 'org.greenrobot:eventbus:3.0.0'
 }
