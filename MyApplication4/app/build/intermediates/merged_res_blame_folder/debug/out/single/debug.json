@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_facebook.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_setup.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\fragment_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_main1.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\main1.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_add.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_wordrecog.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\wordrecog.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_edit_text_frame2.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\edit_text_frame2.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\menu_bn_menu.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\menu\\bn_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\font_nanumsquare.ttf.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\font\\nanumsquare.ttf"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_watchout_off.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\watchout_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_watchout.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\activity_watchout.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_word_list.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\activity_word_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bluetooth.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_main5.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\main5.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_edit_text_frame.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\edit_text_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_word_recognition.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\activity_word_recognition.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_watchout_on.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\watchout_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\font_nanumbarungothic.ttf.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\font\\nanumbarungothic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_main2.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\main2.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_bg.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit_text_bg.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_listen.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\listen.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\font_jalnan.ttf.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\font\\jalnan.ttf"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_signup_tab_fragment.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\signup_tab_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_close24.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\ic_close24.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_home.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_wave_sound.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\wave_sound.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_main3.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\main3.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_password.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\password.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_setup.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\setup.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mypage_user.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\mypage_user.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_handshake.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\handshake.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_vie_bg.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\vie_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_notification_icon.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\notification_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_mypage.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\fragment_mypage.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_login_tab_fragment.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\login_tab_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonstyle.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\buttonstyle.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_addlist.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\addlist.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_profile.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\font_nanumbold.ttf.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\font\\nanumbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\font_font.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\font\\font.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo3.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\logo3.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_plus.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable-v24\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_bluetooth.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\bluetooth.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu_selector_color.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\menu_selector_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_alarm.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\alarm.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_navigation.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_document.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\document.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_phone2.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\phone2.png"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\merged_res\\debug\\drawable_main4.png.flat",
+        "source": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\src\\main\\res\\drawable\\main4.png"
+    }
+]

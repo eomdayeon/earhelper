@@ -1,0 +1,56 @@
+com/example/myapplication/utils/AudioWriterPCM.java
+ com.example.myapplication.utils.AudioWriterPCM
+com/example/myapplication/LoginAdapter.java
+ com.example.myapplication.LoginAdapter
+com/example/myapplication/SignupTabFragment.java
+ com.example.myapplication.SignupTabFragment
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/WordList.java
+ com.example.myapplication.WordList
+ com.example.myapplication.WordList$1
+ com.example.myapplication.WordList$2
+ com.example.myapplication.WordList$2$1
+ com.example.myapplication.WordList$3
+com/example/myapplication/SavedWords.java
+ com.example.myapplication.SavedWords
+com/example/myapplication/WordRecognition.java
+ com.example.myapplication.WordRecognition
+ com.example.myapplication.WordRecognition$1
+ com.example.myapplication.WordRecognition$2
+ com.example.myapplication.WordRecognition$3
+com/example/myapplication/SetupFragment.java
+ com.example.myapplication.SetupFragment
+com/example/myapplication/MypageFragment.java
+ com.example.myapplication.MypageFragment
+com/example/myapplication/LoginTabFragment.java
+ com.example.myapplication.LoginTabFragment
+ com.example.myapplication.LoginTabFragment$1
+com/example/myapplication/Bluetooth.java
+ com.example.myapplication.Bluetooth
+ com.example.myapplication.Bluetooth$1
+ com.example.myapplication.Bluetooth$2
+com/example/myapplication/NavigationActivity.java
+ com.example.myapplication.NavigationActivity
+ com.example.myapplication.NavigationActivity$1
+ com.example.myapplication.NavigationActivity$2
+ com.example.myapplication.NavigationActivity$DataEvent
+com/example/myapplication/HomeFragment.java
+ com.example.myapplication.HomeFragment
+ com.example.myapplication.HomeFragment$1
+ com.example.myapplication.HomeFragment$2
+ com.example.myapplication.HomeFragment$3
+com/example/myapplication/Foreground_Service.java
+ com.example.myapplication.Foreground_Service
+ com.example.myapplication.Foreground_Service$1
+ com.example.myapplication.Foreground_Service$2
+ com.example.myapplication.Foreground_Service$Mybinder
+com/example/myapplication/Watchout.java
+ com.example.myapplication.Watchout
+ com.example.myapplication.Watchout$1
+ com.example.myapplication.Watchout$1$1
+ com.example.myapplication.Watchout$1$2
+ com.example.myapplication.Watchout$1$2$1

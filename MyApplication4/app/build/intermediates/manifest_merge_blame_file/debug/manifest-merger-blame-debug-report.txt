@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:7:5-74
+12-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:7:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:9:5-77
+14-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:9:22-74
+15    <uses-permission
+15-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:10:5-12:38
+16        android:name="android.permission.GET_ACCOUNTS"
+16-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:11:9-55
+17        android:maxSdkVersion="22" />
+17-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:12:9-35
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.SEND_SMS" />
+19-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:14:5-67
+19-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.READ_CONTACTS" />
+20-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:15:5-72
+20-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:15:22-69
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:16:5-69
+21-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:16:22-66
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:17:5-71
+22-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:17:22-68
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:18:5-67
+23-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:18:22-64
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:19:5-81
+24-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:19:22-78
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:20:5-80
+25-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:20:22-77
+26    <uses-permission android:name="android.name.ACCESS_FINE_LOCATION" />
+26-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:22:5-73
+26-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:22:22-70
+27    <uses-permission android:name="android.name.ACCESS_COARSE_LOCATION" />
+27-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:23:5-75
+27-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:23:22-72
+28
+29    <permission
+29-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:25:5-27:37
+30        android:name="android.permission.BLUETOOTH"
+30-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:26:9-52
+31        android:label="BLUETOOTH" />
+31-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:27:9-34
+32    <permission android:name="android.permission.BLUETOOTH_ADMIN" />
+32-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:28:5-69
+32-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:28:17-66
+33    <permission android:name="android.name.ACCESS_FINE_LOCATION" />
+33-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:29:5-68
+33-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:29:17-65
+34    <permission android:name="android.name.ACCESS_COARSE_LOCATION" />
+34-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:30:5-70
+34-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:30:17-67
+35
+36    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+37    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+38-->[com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+39
+40    <application
+40-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:32:5-74:19
+41        android:name="com.example.myapplication.SavedWords"
+41-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:33:9-35
+42        android:allowBackup="true"
+42-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:34:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:35:9-43
+47        android:label="@string/app_name"
+47-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:36:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:37:9-54
+49        android:supportsRtl="true"
+49-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:38:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.MyApplication" >
+51-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:39:9-51
+52        <service
+52-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:40:9-43:47
+53            android:name="com.example.myapplication.Foreground_Service"
+53-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:41:13-47
+54            android:enabled="true"
+54-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:42:13-35
+55            android:exported="true" />
+55-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:43:13-36
+56
+57        <activity
+57-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:45:9-48:72
+58            android:name="com.example.myapplication.Bluetooth"
+58-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:46:13-38
+59            android:exported="false"
+59-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:47:13-37
+60            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+60-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:48:13-69
+61        <activity
+61-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:49:9-52:72
+62            android:name="com.example.myapplication.Watchout"
+62-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:50:13-37
+63            android:exported="false"
+63-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:51:13-37
+64            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+64-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:52:13-69
+65        <activity
+65-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:53:9-56:72
+66            android:name="com.example.myapplication.WordRecognition"
+66-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:54:13-44
+67            android:exported="false"
+67-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:55:13-37
+68            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+68-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:56:13-69
+69        <activity
+69-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:57:9-60:72
+70            android:name="com.example.myapplication.WordList"
+70-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:58:13-37
+71            android:exported="false"
+71-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:59:13-37
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+72-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:60:13-69
+73        <activity
+73-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:61:9-63:40
+74            android:name="com.example.myapplication.NavigationActivity"
+74-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:62:13-47
+75            android:exported="false" />
+75-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:63:13-37
+76        <activity
+76-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:64:9-73:20
+77            android:name="com.example.myapplication.MainActivity"
+77-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:65:13-41
+78            android:exported="true"
+78-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:66:13-36
+79            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+79-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:67:13-69
+80            <intent-filter>
+80-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:68:13-72:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:69:17-69
+81-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:69:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:71:17-77
+83-->C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:71:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity android:name="app.akexorcist.bluetotohspp.library.DeviceList" />
+86-->[com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:11:9-83
+86-->[com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:11:19-80
+87        <activity
+87-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+88            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+88-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+92            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+94
+95        <service
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+103-->[com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+105        </service>
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+114            android:authorities="com.example.myapplication.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+121
+122        <provider
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+123            android:name="androidx.startup.InitializationProvider"
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+124            android:authorities="com.example.myapplication.androidx-startup"
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+125            android:exported="false" >
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+126            <meta-data
+126-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+127                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+127-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+128                android:value="androidx.startup" />
+128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+129            <meta-data
+129-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+130                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+130-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+131                android:value="androidx.startup" />
+131-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+132        </provider>
+133    </application>
+134
+135</manifest>

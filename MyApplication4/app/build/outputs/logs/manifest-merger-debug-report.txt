@@ -1,0 +1,532 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\qkard\.gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\9079c9694b4d4270d7cd62242948af25\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\c0d9c1ab0e87542ba382db148d96a3af\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\qkard\.gradle\caches\transforms-3\62be83210208ccdc6bef32902742be53\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\qkard\.gradle\caches\transforms-3\668279eb7e55e942e0d3b7431f1c8315\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-task-audio:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\3b63c83162a7bee3455b606e2c53a573\transformed\jetified-tensorflow-lite-task-audio-0.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\4f4aad37ce920db297a8e9b5cb0474c7\transformed\jetified-tensorflow-lite-task-text-0.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:2:1-14:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\qkard\.gradle\caches\transforms-3\dec8c665f6eea24b10e4ae6821179e4f\transformed\jetified-glide-transformations-2.0.1\AndroidManifest.xml:2:1-12:12
+MERGED from [jp.co.cyberagent.android:gpuimage:2.1.0] C:\Users\qkard\.gradle\caches\transforms-3\5f6e674291a228866744c4016d0f9b4c\transformed\jetified-gpuimage-2.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\3cb859c1ac0dd29d128e917789be4254\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5d6e3e10a5dcffaa2249003174c2491d\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\qkard\.gradle\caches\transforms-3\ced132bf9fc06842b5819ef6e28ee688\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\qkard\.gradle\caches\transforms-3\0173ed9dc551c8b1c170efbf05532376\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\112c0a3e5dbc3b1dd7ba5c1504be4543\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\0896e3d0b45cdf89c133e98609f31280\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\40129cdd0cc6fb43e1431d3a7f860d71\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\d5ce58f194e6eb15743ad13effdd09da\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d2646664f8d9727246d320f24126df9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\qkard\.gradle\caches\transforms-3\e7a7361ce08649d63b0b54755f88f036\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\9c97282722fb613bc8c5f0fb5711e84a\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\6d6e532017af0c907cd34d38d04e17fc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\973d1c6591a02ca84f2ddc5ef5b8076a\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\56d3436542761c87b3a7c38d1c2e3d4f\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b2b00e982f1215a847329e9d903a511\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\76ce4b0e4d2e7286e97250b1cf6504f3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\c1a2bad483f0938ab658856dbf3c7f56\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\940f6159f5551d04c5900cf56e10f7a6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\1d20e376c94887dfa0b3a5aa12cd6783\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\qkard\.gradle\caches\transforms-3\4b46778ab19ba5415d2ece63cb3f0bd0\transformed\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qkard\.gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\7a6baf161ab5d6c31b6f6f5d94e198cf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\6e3c93787fdaaf7e4199472c64252016\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\0d7ad5a9bb64a79e832ad9e2795069b5\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\qkard\.gradle\caches\transforms-3\72de0627c0c71c2c0ac6e20b5aa28ba3\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5dc1b0d68d5be8d395af6b357c3240c1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\01df76d36aeadea6e33de3b275e087cb\transformed\jetified-tensorflow-lite-task-base-0.2.0\AndroidManifest.xml:2:1-6:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\d2361eef43efd200f2817f5c26bb74c8\transformed\jetified-tensorflow-lite-support-0.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\e91c44084867c36dc0bd1088a48c573b\transformed\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\fd6298a1e796de3e1fc9a7e94be682ba\transformed\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+	package
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:6:5-68
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:7:5-68
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:7:5-74
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:8:5-74
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:11:9-55
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:15:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:16:22-66
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:17:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.name.ACCESS_FINE_LOCATION
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:22:22-70
+uses-permission#android.name.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:23:22-72
+permission#android.permission.BLUETOOTH
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:25:5-27:37
+	android:label
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:27:9-34
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:26:9-52
+permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:28:5-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:28:17-66
+permission#android.name.ACCESS_FINE_LOCATION
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:29:17-65
+permission#android.name.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:30:5-70
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:30:17-67
+application
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:32:5-74:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\qkard\.gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\qkard\.gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:10:5-12:19
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:10:5-12:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5d6e3e10a5dcffaa2249003174c2491d\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5d6e3e10a5dcffaa2249003174c2491d\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qkard\.gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qkard\.gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\01df76d36aeadea6e33de3b275e087cb\transformed\jetified-tensorflow-lite-task-base-0.2.0\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\01df76d36aeadea6e33de3b275e087cb\transformed\jetified-tensorflow-lite-task-base-0.2.0\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\fd6298a1e796de3e1fc9a7e94be682ba\transformed\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\fd6298a1e796de3e1fc9a7e94be682ba\transformed\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:38:9-35
+	android:label
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:36:9-41
+	android:roundIcon
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:37:9-54
+	android:icon
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:39:9-51
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:33:9-35
+service#com.example.myapplication.Foreground_Service
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:40:9-43:47
+	android:enabled
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:43:13-36
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:41:13-47
+activity#com.example.myapplication.Bluetooth
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:45:9-48:72
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:47:13-37
+	android:theme
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:48:13-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:46:13-38
+activity#com.example.myapplication.Watchout
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:49:9-52:72
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:51:13-37
+	android:theme
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:50:13-37
+activity#com.example.myapplication.WordRecognition
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:53:9-56:72
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:55:13-37
+	android:theme
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:56:13-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:54:13-44
+activity#com.example.myapplication.WordList
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:57:9-60:72
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:59:13-37
+	android:theme
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:60:13-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:58:13-37
+activity#com.example.myapplication.NavigationActivity
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:61:9-63:40
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:62:13-47
+activity#com.example.myapplication.MainActivity
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:64:9-73:20
+	android:exported
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:66:13-36
+	android:theme
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:67:13-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:65:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:68:13-72:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:71:27-74
+uses-sdk
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\qkard\.gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\qkard\.gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\9079c9694b4d4270d7cd62242948af25\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\9079c9694b4d4270d7cd62242948af25\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\c0d9c1ab0e87542ba382db148d96a3af\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\c0d9c1ab0e87542ba382db148d96a3af\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\qkard\.gradle\caches\transforms-3\62be83210208ccdc6bef32902742be53\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\qkard\.gradle\caches\transforms-3\62be83210208ccdc6bef32902742be53\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\qkard\.gradle\caches\transforms-3\668279eb7e55e942e0d3b7431f1c8315\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\qkard\.gradle\caches\transforms-3\668279eb7e55e942e0d3b7431f1c8315\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [org.tensorflow:tensorflow-lite-task-audio:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\3b63c83162a7bee3455b606e2c53a573\transformed\jetified-tensorflow-lite-task-audio-0.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-audio:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\3b63c83162a7bee3455b606e2c53a573\transformed\jetified-tensorflow-lite-task-audio-0.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\4f4aad37ce920db297a8e9b5cb0474c7\transformed\jetified-tensorflow-lite-task-text-0.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-text:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\4f4aad37ce920db297a8e9b5cb0474c7\transformed\jetified-tensorflow-lite-task-text-0.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\qkard\.gradle\caches\transforms-3\dec8c665f6eea24b10e4ae6821179e4f\transformed\jetified-glide-transformations-2.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\qkard\.gradle\caches\transforms-3\dec8c665f6eea24b10e4ae6821179e4f\transformed\jetified-glide-transformations-2.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android:gpuimage:2.1.0] C:\Users\qkard\.gradle\caches\transforms-3\5f6e674291a228866744c4016d0f9b4c\transformed\jetified-gpuimage-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.co.cyberagent.android:gpuimage:2.1.0] C:\Users\qkard\.gradle\caches\transforms-3\5f6e674291a228866744c4016d0f9b4c\transformed\jetified-gpuimage-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\3cb859c1ac0dd29d128e917789be4254\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\3cb859c1ac0dd29d128e917789be4254\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5d6e3e10a5dcffaa2249003174c2491d\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5d6e3e10a5dcffaa2249003174c2491d\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\qkard\.gradle\caches\transforms-3\ced132bf9fc06842b5819ef6e28ee688\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\qkard\.gradle\caches\transforms-3\ced132bf9fc06842b5819ef6e28ee688\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\qkard\.gradle\caches\transforms-3\0173ed9dc551c8b1c170efbf05532376\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\qkard\.gradle\caches\transforms-3\0173ed9dc551c8b1c170efbf05532376\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\112c0a3e5dbc3b1dd7ba5c1504be4543\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\qkard\.gradle\caches\transforms-3\112c0a3e5dbc3b1dd7ba5c1504be4543\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\0896e3d0b45cdf89c133e98609f31280\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\0896e3d0b45cdf89c133e98609f31280\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\40129cdd0cc6fb43e1431d3a7f860d71\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\40129cdd0cc6fb43e1431d3a7f860d71\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\d5ce58f194e6eb15743ad13effdd09da\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\d5ce58f194e6eb15743ad13effdd09da\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d2646664f8d9727246d320f24126df9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d2646664f8d9727246d320f24126df9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\qkard\.gradle\caches\transforms-3\e7a7361ce08649d63b0b54755f88f036\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\qkard\.gradle\caches\transforms-3\e7a7361ce08649d63b0b54755f88f036\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\9c97282722fb613bc8c5f0fb5711e84a\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\9c97282722fb613bc8c5f0fb5711e84a\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\6d6e532017af0c907cd34d38d04e17fc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\6d6e532017af0c907cd34d38d04e17fc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\973d1c6591a02ca84f2ddc5ef5b8076a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\973d1c6591a02ca84f2ddc5ef5b8076a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\56d3436542761c87b3a7c38d1c2e3d4f\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\56d3436542761c87b3a7c38d1c2e3d4f\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b2b00e982f1215a847329e9d903a511\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b2b00e982f1215a847329e9d903a511\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\76ce4b0e4d2e7286e97250b1cf6504f3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\76ce4b0e4d2e7286e97250b1cf6504f3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\qkard\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\c1a2bad483f0938ab658856dbf3c7f56\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\c1a2bad483f0938ab658856dbf3c7f56\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\940f6159f5551d04c5900cf56e10f7a6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\940f6159f5551d04c5900cf56e10f7a6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\1d20e376c94887dfa0b3a5aa12cd6783\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\1d20e376c94887dfa0b3a5aa12cd6783\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\qkard\.gradle\caches\transforms-3\4b46778ab19ba5415d2ece63cb3f0bd0\transformed\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\qkard\.gradle\caches\transforms-3\4b46778ab19ba5415d2ece63cb3f0bd0\transformed\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qkard\.gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\qkard\.gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\7a6baf161ab5d6c31b6f6f5d94e198cf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\7a6baf161ab5d6c31b6f6f5d94e198cf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\qkard\.gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\6e3c93787fdaaf7e4199472c64252016\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\qkard\.gradle\caches\transforms-3\6e3c93787fdaaf7e4199472c64252016\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\0d7ad5a9bb64a79e832ad9e2795069b5\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\0d7ad5a9bb64a79e832ad9e2795069b5\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\qkard\.gradle\caches\transforms-3\72de0627c0c71c2c0ac6e20b5aa28ba3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\qkard\.gradle\caches\transforms-3\72de0627c0c71c2c0ac6e20b5aa28ba3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5dc1b0d68d5be8d395af6b357c3240c1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5dc1b0d68d5be8d395af6b357c3240c1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\qkard\.gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-support:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\d2361eef43efd200f2817f5c26bb74c8\transformed\jetified-tensorflow-lite-support-0.2.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.2.0] C:\Users\qkard\.gradle\caches\transforms-3\d2361eef43efd200f2817f5c26bb74c8\transformed\jetified-tensorflow-lite-support-0.2.0\AndroidManifest.xml:4:3-71
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\e91c44084867c36dc0bd1088a48c573b\transformed\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\e91c44084867c36dc0bd1088a48c573b\transformed\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\fd6298a1e796de3e1fc9a7e94be682ba\transformed\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\fd6298a1e796de3e1fc9a7e94be682ba\transformed\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml
+activity#app.akexorcist.bluetotohspp.library.DeviceList
+ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:11:9-83
+	android:name
+		ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\37dff47cc218d47a34f6779fe1b2beb4\transformed\jetified-bluetoothspp-1.0.0\AndroidManifest.xml:11:19-80
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\qkard\AndroidStudioProjects\MyApplication4\app\src\main\AndroidManifest.xml:2:1-76:12 reason: app.akexorcist.bluetotohspp.library has a targetSdkVersion < 4
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\fea8969c2a114c34e8e519840f4c515b\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] C:\Users\qkard\.gradle\caches\transforms-3\535477688549cd385a6d3c7168cdfbba\transformed\jetified-firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\qkard\.gradle\caches\transforms-3\0d4199a270042d986ba8f5e5b85420db\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\qkard\.gradle\caches\transforms-3\692409f85442c469002fa9eedc822dea\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qkard\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\qkard\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qkard\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

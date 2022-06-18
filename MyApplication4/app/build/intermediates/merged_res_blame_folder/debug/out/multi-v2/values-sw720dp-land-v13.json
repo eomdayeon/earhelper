@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\qkard\\AndroidStudioProjects\\MyApplication4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\qkard\\.gradle\\caches\\transforms-3\\37dff47cc218d47a34f6779fe1b2beb4\\transformed\\jetified-bluetoothspp-1.0.0\\res\\values-sw720dp-land-v13\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "239,292",
+                        "endColumns": "52,54",
+                        "endOffsets": "287,342"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,54",
+                        "endOffsets": "103,158"
+                    }
+                }
+            ]
+        }
+    ]
+}
