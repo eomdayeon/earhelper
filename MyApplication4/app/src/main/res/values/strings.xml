@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="channel_name" />
+    <string name="channel_description" />
+    <string name="read_buffer"><![CDATA[<Read Buffer>]]></string>
+    <string name="bluetooth_status"><![CDATA[<Bluetooth Status>]]></string>
+</resources>
